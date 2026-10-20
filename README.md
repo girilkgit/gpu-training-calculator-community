@@ -1,4 +1,4 @@
-# GPU Training Calculator: Edition
+# GPU Training Calculator: Edition-1
 
 Estimate how long a large GPU training run will take and what it will cost, once crashes, checkpoints, recovery and setup are counted.
 
@@ -6,7 +6,7 @@ Most estimates divide the work by the GPU's speed and stop there. On a cluster o
 
 ## What it does
 
-- **Plain-English summary** that rewrites itself as you change any input: finish time, expected crashes, how much of the run is lost, and the cost of the GPU time that is not training.
+- **Summary** that rewrites itself as you change any input: finish time, expected crashes, how much of the run is lost, and the cost of the GPU time that is not training.
 - **Time breakdown** into useful training, checkpoint pauses, recovery, lost work and setup.
 - **Cost breakdown** into GPU, storage, egress, people and contingency, with an effective price per *useful* GPU-hour, which is the number to compare between providers.
 - **Range of outcomes** from a simulation, because crashes land at random: a lucky run, a typical run and an unlucky run.

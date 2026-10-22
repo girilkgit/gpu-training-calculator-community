@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧮 GPU Training Calculator: Edition-1
+# GPU Training Calculator: Edition-1
 
 **What does a large GPU training run really take, in time and in money?**
 

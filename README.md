@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧮 GPU Training Calculator: Edition-1
+# GPU Training Calculator: Edition-1
 
 **What does a large GPU training run really take, in time and in money?**
 
@@ -64,8 +64,6 @@ Everything runs in the browser. There is no backend, no account and no data leav
 3,000 H200 GPUs, a job that would take 72 hours at 100% speed, 40% MFU, $5.40 per GPU-hour, Auto checkpoints with a 20 second pause, a crash rate measured on Meta's Llama 3 run, a 15 minute recovery and 4 hours of setup.
 
 That comes out at roughly **191 hours**, about **11 crashes** and about **$3.10M**. Pure training would take 180 hours, so the extra 11.5 hours come from the things most estimates leave out:
-
-![Time breakdown for the example run: 7d 12h useful training (94.0%), 2h 19m checkpoint pauses, 2h 47m recovery, 2h 22m lost work and 4h setup](docs/time-breakdown.svg)
 
 Change any input to see what it does. The crash-rate and recovery dropdowns list other published figures to try.
 

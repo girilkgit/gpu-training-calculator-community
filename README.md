@@ -1,6 +1,6 @@
 <div align="center">
 
-# GPU Training Calculator: Edition-1
+# 🧮 GPU Training Calculator: Edition-1
 
 **What does a large GPU training run really take, in time and in money?**
 
@@ -65,6 +65,8 @@ Everything runs in the browser. There is no backend, no account and no data leav
 
 That comes out at roughly **191 hours**, about **11 crashes** and about **$3.10M**. Pure training would take 180 hours, so the extra 11.5 hours come from the things most estimates leave out:
 
+![Time breakdown for the example run: 94% useful training; the rest is checkpoint pauses, recovery, lost work and setup](docs/time-breakdown.png)
+
 Change any input to see what it does. The crash-rate and recovery dropdowns list other published figures to try.
 
 ## 📚 Sources
@@ -106,7 +108,7 @@ docs/
 
 ## 🤖 Disclosure
 
-Built with AI assistance (Bolt.new, Claude etc.). The author directed the design, reviewed the results and is responsible for the project.
+Built with AI assistance (Bolt.new, Claude). The author directed the design, reviewed the results and is responsible for the project.
 
 ## 🤝 Independence
 

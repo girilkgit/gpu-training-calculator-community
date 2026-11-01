@@ -40,7 +40,7 @@ export const CHIPS: Record<ChipId, {
 };
 
 // ---------------- Nebius list prices (verified on nebius.com/prices) ----------------
-export const NEBIUS_PRICING = {
+export const PROVIDER_PRESETS = {
   asOf: DATA_AS_OF,
   source: 'https://nebius.com/prices',
   onDemandUsdPerGpuHour: { H100: 4.5, H200: 5.4, B200: 8.5 } as Record<ChipId, number>,
@@ -51,7 +51,8 @@ export const NEBIUS_PRICING = {
   objectStandardEgressUsdPerGiB: 0.015,
   networkEgressUsdPerGiB: 0, // listed as free
   managedKubernetesAndSlurmUsd: 0, // listed as free
-};
+};/** @deprecated old name, kept so older imports keep working */
+export const NEBIUS_PRICING = PROVIDER_PRESETS;
 
 // ---------------- Failure-rate presets (crashes per 1,000 node-days; 1 node = 8 GPUs) ----------------
 export const FAILURE_PRESETS: { id: string; label: string; value: number; confidence: Confidence; source: string }[] = [

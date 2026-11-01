@@ -1,6 +1,6 @@
 <div align="center">
 
-# GPU Training Calculator: Edition-1
+# GPU Training Calculator: Open Source Edition
 
 **What does a large GPU training run really take, in time and in money?**
 
@@ -18,6 +18,10 @@ Most estimates stop at the GPU's speed. This one also counts the crashes, checkp
 ---
 
 ## ✨ What it does
+
+### 🔗 [**Try the live calculator →**](https://girilkgit.github.io/gpu-training-calculator-community/)
+
+No sign-up and nothing to install. Open it and change any input.
 
 | | Feature |
 |---|---|
@@ -108,7 +112,7 @@ docs/
 
 ## 🤖 Disclosure
 
-Built with AI assistance (Bolt.new, Claude). The author directed the design, reviewed the results and is responsible for the project.
+Built with AI assistance. The author directed the design, reviewed the results and is responsible for the project.
 
 ## 🤝 Independence
 

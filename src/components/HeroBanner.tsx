@@ -1,6 +1,5 @@
 import OrbHero from './OrbHero';
 
-const EMAIL = 'info@naadimage.com';
 const POINTS = ['Know how long your run will take', 'See what crashes really cost you', 'Get a budget range before you commit'];
 
 /**
@@ -32,12 +31,6 @@ export default function HeroBanner() {
               </li>
             ))}
           </ul>
-          <a
-            href={`mailto:${EMAIL}?subject=GPU%20Training%20Calculator`}
-            className="mt-3 inline-flex items-center rounded-lg border border-slate-300 bg-white px-3 py-1.5 text-sm font-medium text-slate-800 hover:border-sky-400 hover:bg-sky-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 dark:border-slate-600 dark:bg-slate-800 dark:text-sky-200 dark:hover:border-sky-600 dark:hover:bg-slate-700"
-          >
-            Contact: {EMAIL}
-          </a>
         </div>
       </div>
     </header>

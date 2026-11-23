@@ -69,19 +69,21 @@ function App() {
           </div>
         </div>
 
-        {/* Contact: visible on every screen size */}
+        {/* Feedback: public issue tracker */}
         <section
-          aria-label="Contact"
+          aria-label="Feedback"
           className="mt-6 flex flex-col items-start justify-between gap-3 rounded-xl border border-slate-200 bg-white px-4 py-4 shadow-sm dark:border-slate-700 dark:bg-slate-800/50 sm:flex-row sm:items-center"
         >
           <p className="text-sm text-slate-700 dark:text-slate-200">
-            <span className="font-semibold">Questions, feedback or your own cluster to size?</span>
+            <span className="font-semibold">Found a better number or a mistake?</span>
           </p>
           <a
-            href="mailto:info@naadimage.com?subject=GPU%20Training%20Calculator"
+            href="https://github.com/girilkgit/gpu-training-calculator-community/issues"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex shrink-0 items-center rounded-lg border border-slate-300 bg-slate-50 px-4 py-2 text-sm font-medium text-slate-800 hover:border-sky-400 hover:bg-sky-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 dark:border-slate-600 dark:bg-slate-900/60 dark:text-sky-200 dark:hover:border-sky-600 dark:hover:bg-slate-700"
           >
-            info@naadimage.com
+            Open an issue on GitHub
           </a>
         </section>
       </main>

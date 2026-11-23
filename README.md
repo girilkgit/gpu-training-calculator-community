@@ -120,7 +120,7 @@ This is an independent project. It is not affiliated with, endorsed by or sponso
 
 ## 💬 Feedback
 
-Feedback and corrections are welcome, especially better crash-rate, recovery-time or price data with a public source. Open an issue on this repository or email info@naadimage.com.
+Feedback and corrections are welcome, especially better crash-rate, recovery-time or price data with a public source. Open an issue on this repository.
 
 ## 📄 Licence
 
